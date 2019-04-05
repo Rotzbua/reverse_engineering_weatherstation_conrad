@@ -97,7 +97,7 @@ Exact formula:
 
 But with the test set of messages there is a difference. According to the `byte4` (humidity) the checksum fails if `byte4 & 0x0f` is different.
 
-After analysing the test messages is seems to be following assosiaction between `byte4 & 0x0f` and offset after calcutation.
+After analysing the test messages is seems to be following assosiaction between `byte4 & 0x0f` and offset `calculated_xor & 0xf0` after calcutation.
 ```
     [0] => b
     [1] => 8
