@@ -71,7 +71,7 @@ Maybe some additional basic values of protocol design:
    * 0~256kmh => 8 bit
  * rain volum
    * 0~999.9MM => 14 bit
-   * smalles step 0,7mm next 1,5mm suggested step about 0,75mm = 13333 step => 11 bit
+   * smalles step 0,7mm next 1,5mm suggested step about 0,75mm = 1333 steps => 11 bit
  * low battery
    * 1 bit
 
