@@ -118,8 +118,10 @@ A package contains 88 bit plus pause package 8 bit.
 
 A package has 22 nibbles (4 bit). The pause package has 2 nibbles which are always `0`.
 
-> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
-> a a a 5 9 8 3 d 0  0  d  8  2  9  0  1  0  0  0  0  8  a  0  0
+```
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+a a a 5 9 8 3 d 0  0  d  8  2  9  0  1  0  0  0  0  8  a  0  0
+```
 
 #### Preamble
 
