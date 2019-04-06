@@ -167,6 +167,8 @@ c => W
 
 #### Checksum
 
+Nibble 21, 22 seems to be a checksum.
+
 The checksum is not completly clear. It seems to be a XOR of all bytes, but it is a bit different. Pseudo code formula (names does not exactly match the package format):
 ```php
 0x47 ^ $id ^ $bat ^ $temp ^ $hum ^ $rain ^ $wind ^ $dir ^ $check
