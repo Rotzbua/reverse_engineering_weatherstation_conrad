@@ -77,11 +77,91 @@ In Europe only `433.92 MHz` can be used, so we look in this range for signals.
 
 ### Signals
 
-TODO
+Every 61 seconds are new signals received.
+
+The modulation is `OOK/ASK` and the signal is coded as `PWM` like a morse code.
+
+The information is sent 6 times with following structure:
+```
+[begin]
+[5x]{
+  [pause]
+  [package]
+  [pause package]
+}
+[pause]
+[package]
+```
+
+Raw data example:
+```
+[begin]: 001001001001001001001
+
+[package]+[pause package]: 1101001101001101001101001101001101001001101001101101001001101101001001001001001101101101101001101001001001001001001001001101101001101001101101101001001101001101001001101001001001001001001001101001001001001001001001001001001001001101001001001101001001001101101001101001001001001001001001
+```
+
+To get the data as `bit` representation we have to decode the raw data as morse code. A raw `1` is a `low bit` and a raw `11` represents a `high bit`. All raw `0` can be ignored or means a pause if there are more than two.
+
+Example:
+```
+Raw data: 11010011010011010011010011010011010010011010011011010010011
+Bit data:  1 0   1 0   1 0   1 0   1 0   1 0  0   1 0   1  1 0  0   1
+```
+
+Bit coding to signal duration:
+ * 0 bit: 490 us
+ * 1 bit: 966 us
+
+A package contains 88 bit plus pause package 8 bit.
 
 ### Package Format
 
-TODO
+A package has 22 nibbles (4 bit). The pause package has 2 nibbles which are always `0`.
+
+> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+> a a a 5 9 8 3 d 0  0  d  8  2  9  0  1  0  0  0  0  8  a  0  0
+
+#### Preamble
+
+Nibble 1, 2, 3 are always `a`.
+
+#### Version (?)
+
+Nibble 4, 5, 6 are always `598` maybe it is the protocol version or it is part of the preamble.
+
+#### Random Id
+
+Nibble 7, 8 changes very poweron and is constant until battery is changed.
+
+#### Low Voltage
+
+Nibble 9 indicates the battery state. `0` battery is ok. `f` if voltage is lower than 2.7V. Only two values `0` and `f` observed.
+
+#### Temperature
+
+Nibble 10, 11, 12 are the temperature in °C. The decimal representation divided by 10 is the current degree. Negative Temperature is indicated by nibble 10 if is `f`.
+
+#### Humidity
+
+Nibble 13, 14 are the humidity in %. The decimal representation is the humidity.
+
+#### Rain Volum
+
+Nibble 15, 16, 17 are the steps of the rain sensor. One step is about 0,75mm rain. The number is imcremented and not reset between transmissions.
+
+#### Wind Speed
+
+Nibble 18, 19 are the wind speed in km/h.
+
+#### Wind Direction
+
+Nibble 20 is the wind direction. Values between are the according wind directions.
+```
+0 => N
+4 => O
+8 => S
+c => W
+```
 
 #### Checksum
 
