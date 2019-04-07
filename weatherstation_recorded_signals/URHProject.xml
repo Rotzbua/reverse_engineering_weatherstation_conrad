@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<UniversalRadioHackerProject broadcast_address_hex="ffff" collapse_project_tabs="0" description="" modulation_was_edited="0">
+  <modulators>
+    <modulator carrier_amplitude="1.0" carrier_freq_hz="40000.0" carrier_phase_deg="0.0" gauss_bt="0.5" gauss_filter_width="1.0" index="0" modulation_type="0" name="Modulator" param_for_one="100.0" param_for_zero="0.0" sample_rate="None" samples_per_bit="100"/>
+  </modulators>
+  <device_conf>
+    <adaptive_noise>True</adaptive_noise>
+    <apply_dc_correction>False</apply_dc_correction>
+    <automatic_center>True</automatic_center>
+    <bandwidth>964000.0</bandwidth>
+    <bit_len>500</bit_len>
+    <center>0.5366447567939758</center>
+    <decoding_name>morse</decoding_name>
+    <freq_correction>1</freq_correction>
+    <frequency>433999762.939</frequency>
+    <gain>20</gain>
+    <modulation_index>0</modulation_index>
+    <name>RTL-SDR</name>
+    <noise>0.031119916783322047</noise>
+    <num_sending_repeats>0</num_sending_repeats>
+    <rx_antenna_index>-1</rx_antenna_index>
+    <rx_baseband_gain>20</rx_baseband_gain>
+    <rx_gain>166</rx_gain>
+    <rx_if_gain>20</rx_if_gain>
+    <sample_rate>964000.0</sample_rate>
+    <tolerance>3</tolerance>
+  </device_conf>
+  <simulator_rx_conf/>
+  <simulator_tx_conf/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.5_41_S.complex" message_length_divisor="1" modulation_type="0" name="21.5_41_S" noise_maximum="0.0448" noise_minimum="-0.0448" noise_threshold="0.0448" pause_threshold="8" qad_center="0.5279198884963989" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.5_41_S.complex" position="0"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_S.complex" message_length_divisor="1" modulation_type="0" name="21.6_41_S" noise_maximum="0.0512" noise_minimum="-0.0512" noise_threshold="0.0512" pause_threshold="8" qad_center="0.5284032672643661" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_S.complex" position="1"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_N.complex" message_length_divisor="1" modulation_type="0" name="21.6_41_N" noise_maximum="0.0558" noise_minimum="-0.0558" noise_threshold="0.0558" pause_threshold="8" qad_center="0.5215852707624435" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_N.complex" position="2"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_O.complex" message_length_divisor="1" modulation_type="0" name="21.6_41_O" noise_maximum="0.0512" noise_minimum="-0.0512" noise_threshold="0.0512" pause_threshold="8" qad_center="0.5246459394693375" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_O.complex" position="3"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_S_2.complex" message_length_divisor="1" modulation_type="0" name="21.6_41_S_2" noise_maximum="0.0474" noise_minimum="-0.0474" noise_threshold="0.0474" pause_threshold="8" qad_center="0.5235035866498947" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_S_2.complex" position="4"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_W.complex" message_length_divisor="1" modulation_type="0" name="21.6_41_W" noise_maximum="0.0512" noise_minimum="-0.0512" noise_threshold="0.0512" pause_threshold="8" qad_center="0.5273057073354721" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_W.complex" position="5"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_W_2.complex" message_length_divisor="1" modulation_type="0" name="21.6_41_W_2" noise_maximum="0.05" noise_minimum="-0.05" noise_threshold="0.05" pause_threshold="8" qad_center="0.5277218520641327" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_W_2.complex" position="6"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_42_W.complex" message_length_divisor="1" modulation_type="0" name="21.6_42_W" noise_maximum="0.0448" noise_minimum="-0.0448" noise_threshold="0.0448" pause_threshold="8" qad_center="0.4704355001449585" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_42_W.complex" position="7"/>
+  <signal bit_length="498" filename="RTL-SDR-434MHz-964kSps-964kHz_21.5_43_W.complex" message_length_divisor="1" modulation_type="0" name="21.5_43_W" noise_maximum="0.0512" noise_minimum="-0.0512" noise_threshold="0.0512" pause_threshold="8" qad_center="0.5315" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.5_43_W.complex" position="8"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_43_W_rain1.complex" message_length_divisor="1" modulation_type="0" name="21.6_43_W_rain1" noise_maximum="0.0547" noise_minimum="-0.0547" noise_threshold="0.0547" pause_threshold="8" qad_center="0.5290051996707916" sample_rate="964000.0" tolerance="2">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_43_W_rain1.complex" position="9"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_43_W_rain9.complex" message_length_divisor="1" modulation_type="0" name="21.6_43_W_rain9" noise_maximum="0.0512" noise_minimum="-0.0512" noise_threshold="0.0512" pause_threshold="8" qad_center="0.5309188663959503" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_43_W_rain9.complex" position="10"/>
+  <signal bit_length="500" filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_44_W_rain19.complex" message_length_divisor="1" modulation_type="0" name="RTL-SDR-434MHz-964kSps-964kHz_21.6_44_W_rain19" noise_maximum="0.0474" noise_minimum="-0.0474" noise_threshold="0.0474" pause_threshold="8" qad_center="0.5317254960536957" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="RTL-SDR-434MHz-964kSps-964kHz_21.6_44_W_rain19.complex" position="11"/>
+  <signal bit_length="500" filename="21.5_44_W_wind1.complex" message_length_divisor="1" modulation_type="0" name="21.5_44_W_wind1" noise_maximum="0.0474" noise_minimum="-0.0474" noise_threshold="0.0474" pause_threshold="8" qad_center="0.535540759563446" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="21.5_44_W_wind1.complex" position="12"/>
+  <signal bit_length="500" filename="21.6_44_w_wind4.complex" message_length_divisor="1" modulation_type="0" name="21.6_44_w_wind4" noise_maximum="0.0434" noise_minimum="-0.0434" noise_threshold="0.0434" pause_threshold="8" qad_center="0.47074180841445923" sample_rate="964000.0" tolerance="2">
+    <messages/>
+  </signal>
+  <open_file name="21.6_44_w_wind4.complex" position="13"/>
+  <signal bit_length="500" filename="21.5_44_rain_test.complex" message_length_divisor="1" modulation_type="0" name="21.5_44_rain_test" noise_maximum="0.0524" noise_minimum="-0.0524" noise_threshold="0.0524" pause_threshold="8" qad_center="0.5365542769432068" sample_rate="964000.0" tolerance="2">
+    <messages/>
+  </signal>
+  <open_file name="21.5_44_rain_test.complex" position="14"/>
+  <signal bit_length="500" filename="21.5_44_rain_test2.complex" message_length_divisor="1" modulation_type="0" name="21.5_44_rain_test2" noise_maximum="0.0474" noise_minimum="-0.0474" noise_threshold="0.0474" pause_threshold="8" qad_center="0.5356968194246292" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="21.5_44_rain_test2.complex" position="15"/>
+  <signal bit_length="500" filename="21.3_45_W_3.complex" message_length_divisor="1" modulation_type="0" name="21.3_45_W_3" noise_maximum="0.0373" noise_minimum="-0.0373" noise_threshold="0.0373" pause_threshold="8" qad_center="0.4708288908004761" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="21.3_45_W_3.complex" position="16"/>
+  <signal bit_length="500" filename="21.1_45_N_start1.complex" message_length_divisor="1" modulation_type="0" name="21.1_45_N_start1" noise_maximum="0.0474" noise_minimum="-0.0474" noise_threshold="0.0474" pause_threshold="8" qad_center="0.5268934071063995" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="21.1_45_N_start1.complex" position="17"/>
+  <signal bit_length="500" filename="21.1_45_N_start2.complex" message_length_divisor="1" modulation_type="0" name="21.1_45_N_start2" noise_maximum="0.0448" noise_minimum="-0.0448" noise_threshold="0.0448" pause_threshold="8" qad_center="0.5265849083662033" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="21.1_45_N_start2.complex" position="18"/>
+  <signal bit_length="500" filename="-2.9_50_w.complex" message_length_divisor="1" modulation_type="0" name="-2.9_50_w" noise_maximum="0.0448" noise_minimum="-0.0448" noise_threshold="0.0448" pause_threshold="8" qad_center="0.533675953745842" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="-2.9_50_w.complex" position="19"/>
+  <signal bit_length="500" filename="27.2_74_N.complex" message_length_divisor="1" modulation_type="0" name="27.2_74_N" noise_maximum="0.0404" noise_minimum="-0.0404" noise_threshold="0.0404" pause_threshold="8" qad_center="0.5265247821807861" sample_rate="964000.0" tolerance="3">
+    <messages/>
+  </signal>
+  <open_file name="27.2_74_N.complex" position="20"/>
+  <group id="0" name="New Group">
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.5_41_S.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_S.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_N.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_O.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_S_2.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_W.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_41_W_2.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_42_W.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.5_43_W.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_43_W_rain9.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_44_W_rain19.complex"/>
+    <cf_protocol filename="21.5_44_W_wind1.complex"/>
+    <cf_protocol filename="21.6_44_w_wind4.complex"/>
+    <cf_protocol filename="21.5_44_rain_test.complex"/>
+    <cf_protocol filename="21.5_44_rain_test2.complex"/>
+    <cf_protocol filename="RTL-SDR-434MHz-964kSps-964kHz_21.6_43_W_rain1.complex"/>
+    <cf_protocol filename="21.3_45_W_3.complex"/>
+    <cf_protocol filename="21.1_45_N_start1.complex"/>
+    <cf_protocol filename="21.1_45_N_start2.complex"/>
+    <cf_protocol filename="-2.9_50_w.complex"/>
+    <cf_protocol filename="27.2_74_N.complex"/>
+  </group>
+  <protocol>
+    <decodings>
+      <decoding>'Non Return To Zero (NRZ)', </decoding>
+      <decoding>'Non Return To Zero Inverted (NRZ-I)', 'Invert', </decoding>
+      <decoding>'Manchester I', 'Edge Trigger', </decoding>
+      <decoding>'Manchester II', 'Edge Trigger', 'Invert', </decoding>
+      <decoding>'Differential Manchester', 'Edge Trigger', 'Differential Encoding', </decoding>
+      <decoding>'morse', 'Morse Code', '1;2;1', </decoding>
+      <decoding>'morse2', 'Morse Code', '1;2;2', </decoding>
+    </decodings>
+    <participants>
+      <participant address_hex="" color_index="0" id="0a34cff7-53f8-411c-b9e7-d9fc336df9b1" name="Alice" relative_rssi="0" shortname="A" simulate="0"/>
+      <participant address_hex="" color_index="1" id="e000b199-97b1-450d-982d-5a246f4036fc" name="Bob" relative_rssi="1" shortname="B" simulate="0"/>
+    </participants>
+    <messages>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553776443.053321"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553776450.0120442"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553776456.7812169"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553776464.552975"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553776378.901001"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553776387.2372034"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553776484.0717726"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553779096.924115"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553780860.5595467"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553781099.2622716"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553781327.7508602"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553781753.923242"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553782028.029452"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553782390.8219008"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553782715.539844"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553783198.2896562"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="4704" timestamp="1553783642.8665104"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="4723" timestamp="1553783642.8665717"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="4701" timestamp="1553783642.8665907"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="4721" timestamp="1553783642.8666089"/>
+      <message decoding_index="5" message_type_id="e441f476-b296-46d8-9086-8d72229ab7f1" modulator_index="0" pause="0" timestamp="1553875821.5052354"/>
+    </messages>
+    <message_types>
+      <message_type assigned_by_logic_analyzer="0" assigned_by_ruleset="0" id="e441f476-b296-46d8-9086-8d72229ab7f1" name="Default">
+        <label apply_decoding="True" auto_created="False" color_index="13" display_bit_order_index="0" display_endianness="big" display_format_index="0" end="12" fuzz_me="2" fuzz_values="" name="preamble" show="2" start="0"/>
+        <label apply_decoding="True" auto_created="False" color_index="8" display_bit_order_index="0" display_endianness="big" display_format_index="0" end="24" fuzz_me="2" fuzz_values="" name="version?" show="2" start="12"/>
+        <label apply_decoding="True" auto_created="False" color_index="7" display_bit_order_index="0" display_endianness="big" display_format_index="0" end="32" fuzz_me="2" fuzz_values="" name="random_id" show="2" start="24"/>
+        <label apply_decoding="True" auto_created="False" color_index="9" display_bit_order_index="0" display_endianness="big" display_format_index="0" end="36" fuzz_me="2" fuzz_values="" name="lowbat" show="2" start="32"/>
+        <label apply_decoding="True" auto_created="False" color_index="0" display_bit_order_index="0" display_endianness="big" display_format_index="0" end="40" fuzz_me="2" fuzz_values="" name="temp sign" show="2" start="36"/>
+        <label apply_decoding="True" auto_created="False" color_index="4" display_bit_order_index="0" display_endianness="big" display_format_index="3" end="48" fuzz_me="2" fuzz_values="" name="temp 0.1C" show="2" start="40"/>
+        <label apply_decoding="True" auto_created="False" color_index="3" display_bit_order_index="0" display_endianness="big" display_format_index="3" end="56" fuzz_me="2" fuzz_values="" name="humid" show="2" start="48"/>
+        <label apply_decoding="True" auto_created="False" color_index="5" display_bit_order_index="0" display_endianness="big" display_format_index="3" end="68" fuzz_me="2" fuzz_values="" name="rain" show="2" start="60"/>
+        <label apply_decoding="True" auto_created="False" color_index="6" display_bit_order_index="0" display_endianness="big" display_format_index="3" end="76" fuzz_me="2" fuzz_values="" name="wind" show="2" start="72"/>
+        <label apply_decoding="True" auto_created="False" color_index="1" display_bit_order_index="0" display_endianness="big" display_format_index="0" end="80" fuzz_me="2" fuzz_values="" name="windrichtung" show="2" start="76"/>
+        <checksum_label apply_decoding="True" auto_created="False" category="generic" color_index="2" data_ranges="[[24, 80]]" display_bit_order_index="0" display_endianness="big" display_format_index="1" end="88" fuzz_me="2" fuzz_values="" name="checksum" show="2" start="80">
+          <crc final_xor="0000000000000000" polynomial="11000000000000101" start_value="0000000000000000"/>
+        </checksum_label>
+        <ruleset mode="0"/>
+      </message_type>
+    </message_types>
+  </protocol>
+  <simulator_config>
+    <items/>
+  </simulator_config>
+</UniversalRadioHackerProject>
