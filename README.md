@@ -203,6 +203,12 @@ After analysing the test messages is seems to be following assosiaction between 
 
 In the list you can see, that there is no bidirectional relation. There are `4` and `5` which result in `7`. I did not figure out how they calculate the checksum. Maybe they have a bug in the calculation of the checksum.
 
+## Data Samples
+
+Used data for urh can be found in folder [weatherstation_recorded_signals/](weatherstation_recorded_signals/). First value is temperature followed by humidiy and wind direction. All recorded signals are already truncated to one signal of a transmission to save space and make is easier to interpret.
+
+Some additional recorded data without interpretation can be found in [datasamples.txt](datasamples.txt).
+
 ## Useful References
 
 Other protocols
